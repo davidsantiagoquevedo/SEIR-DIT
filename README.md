@@ -7,7 +7,7 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
 
 |![Esquema](/IMG/Quarantine-Probable.png?raw=true) | ![Esquema](/IMG/Quarantine-SuspectedAndContacts.png?raw=true) |
 
-|##### Fig. 2. Quarantine and testing of probable index cases | ##### Fig. 3. Quarantine and testing of probable index cases and their contacts |
+| Fig. 2. Quarantine and testing of probable index cases |  Fig. 3. Quarantine and testing of probable index cases and their contacts |
 
 
 
