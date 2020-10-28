@@ -44,9 +44,6 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
 | :---:         |     :---:      | 
 | **Fig. 2.** Isolation and testing of probable index cases | **Fig. 3.** Isolation and testing of suspected index cases and their contacts |
 
-
-
-
 | ![Esquema](/IMG/Quarantine-Exposed.png?raw=true) |
 | :---:         | 
 | **Fig. 4.** Isolation and testing of exposed contacts |
@@ -55,8 +52,9 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
 | :---:         |
 |**Fig. 5.** Isolation and testing of non-exposed contacts |
 
-
-
+## Parameters
+### Epidemiological parameters for transitions between infectious states
+The parameters of the main SEIR-like model were adapted from https://mrc-ide.github.io/global-lmic-reports/parameters.html 
 |Parameter | Value | Definition |
 |---|---|---|
 |R0|3.0|Reproduction number|
@@ -80,6 +78,41 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
 |δ<sub>UR</sub>|0.12257|Probability of hospitalized infections requiring an ICU bed that recover |
 |δ<sub>HD</sub>|0.05827|Probability of hospitalized infections requiring a general hospital bed that die|
 |δ<sub>UD</sub>|0.12256|Probability of hospitalized infections requiring an ICU bed that die|
+
+### DIT parameters 
+#### A. Contact tracing
+
+|Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|\[\phi\]|a|
+|---|---|---|---|---|---|---|
+
+Index case
+0
+-
+-
+0
+0
+0
+Household
+3.039
+25%
+100%
+3.039
+0.37
+0.12
+Work / school
+5.931
+15%
+80%
+7.784
+0.74
+0.42
+Other
+6.751
+5%
+50%
+11.160
+0.81
+0.67
 
 
 
