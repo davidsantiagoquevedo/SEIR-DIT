@@ -61,9 +61,9 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |R0|3.0|Reproduction number|
 |β<sub>0</sub>|1.3743 |Transmission rate of infectious individuals that move freely |
 |β<sub>1</sub>|0.0199 |Transmission rate of infectious individuals in households |
-|b| - |Probability of transmitting the disease b=β<sup>M</sup>/n |
+|b| - |Probability of transmitting the disease b=β<sub>M</sub>/n |
 |n|15.721|Average number of contacts per individual|
-|β<sup>H</sup>|0.001|Hospital transmission rate|
+|β<sub>H</sub>|0.001|Hospital transmission rate|
 |ω<sup>-1</sup> |4.6 days|Mean incubation period |
 |σ<sub>C</sub><sup>-1</sup>|3 days|Mean time upon self-isolation for severe infections|
 |σ<sub>CSI</sub><sup>-1</sup>|4.1 days|Mean duration of isolation for severe infections prior hospitalization|
@@ -83,7 +83,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 ### DIT parameters 
 #### A. Contact tracing
 
-  |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|<img src="https://render.githubusercontent.com/render/math?math=Phi">|a|
+  |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|<img src="https://render.githubusercontent.com/render/math?math= \Phi">|<img src="https://render.githubusercontent.com/render/math?math= \tilde{\Phi}">|
 |---|---|---|---|---|---|---|
 
 Index case
