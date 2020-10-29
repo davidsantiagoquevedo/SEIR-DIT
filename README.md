@@ -83,7 +83,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 ### DIT parameters 
 #### A. Contact tracing
 
-  |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|<img src="https://render.githubusercontent.com/render/math?math= \Phi">|<img src="https://render.githubusercontent.com/render/math?math= \tilde{\Phi}">|
+  |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|<img src="https://render.githubusercontent.com/render/math?math= \Phi">|![formula](https://render.githubusercontent.com/render/math?math=\Phi)>|
 |---|---|---|---|---|---|---|
 
 Index case
