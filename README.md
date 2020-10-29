@@ -1,5 +1,6 @@
 # SEIR-DIT
-SEIR-DIT is a mathematical compartmental model aimed to study the effect of DIT strategy (Detect symptoms, isolate and trace contacts) as an alternative to COVID-19 control.
+SEIR-DIT is a mathematical compartmental model aimed to study the effect of detection of symptoms, isolation and contacts tracing as an alternative to COVID-19 control.
+
 The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) that describes the epidemic dynamics and contains the main epidemiological states, and a secondary compartmental model (see Figures 2,3 and 4), fed by the main SEIR-like model, that allows to calculate the testing requirements and amount of isolated cases and contacts at every time, necessary for the implementation of the strategy. 
 
 ## Main SEIR-like model
@@ -82,7 +83,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 ### DIT parameters 
 #### A. Contact tracing
 
-|Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|\[\phi\]|a|
+  |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|<img src="https://render.githubusercontent.com/render/math?math=Phi">|a|
 |---|---|---|---|---|---|---|
 
 Index case
