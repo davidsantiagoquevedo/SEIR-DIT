@@ -84,15 +84,12 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 #### A. Contact tracing
 
   |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|![formula](https://render.githubusercontent.com/render/math?math=\Phi)|![formula](https://render.githubusercontent.com/render/math?math=\tilde\Phi)|
-|---|---|---|---|---|---|---|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Index case|0|-|-|0|0|0|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Household|3.039|25%|100%|3.039|0.38|0.17|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Work / school|5.931|15%|80%|7.784|0.74|0.42|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Other|6.751|5%|50%|11.160|0.83|0.69|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+
 
 
 
