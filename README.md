@@ -90,7 +90,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |Work / school|5.931|15%|80%|7.784|0.74|0.42|
 |Other|6.751|5%|50%|11.160|0.83|0.69|
 
-
+#### B. Testing and isolation
 |Parameter|Value|Definition|
 |:---:|:---:|:---|
 |α<sup>-1</sup>|1 day|Mean time between onset of symptoms and detection|
