@@ -67,7 +67,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |ω<sup>-1</sup> |4.6 days|Mean incubation period |
 |σ<sub>C</sub><sup>-1</sup>|3 days|Mean time upon self-isolation for severe infections|
 |σ<sub>CSI</sub><sup>-1</sup>|4.1 days|Mean duration of isolation for severe infections prior hospitalization|
-|σ<sub>CT</sub><sup>-1</sup>|7.1 days|Mean duration of isolation for traced severe infections prior hospitalization|
+|σ<sub>CT</sub><sup>-1</sup>|7.1 days|Mean duration of isolation for traced contacts with severe infection prior hospitalization|
 |γ<sub>M</sub><sup>-1</sup>|2.1 days|Mean duration of mild infection|
 |γ<sub>HR</sub><sup>-1</sup>|9.5 days|Mean duration of hospitalization for non-critical cases if survive|
 |ν<sup>-1</sup>|11.3 days|Mean duration in ICU if survive|
