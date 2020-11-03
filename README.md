@@ -60,7 +60,7 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |---|---|---|
 |R0|3.0|Reproduction number|
 |β<sub>0</sub>|1.3743 |Transmission rate in absence of social distancing |
-|β<sub>1</sub>|0.0199 |Transmission rate of infectious individuals in households |
+|β<sub>1</sub>|0.0199 |Transmission rate within households |
 |b| - |Probability of transmitting the disease b=β<sub>M</sub>/n |
 |n|15.721|Average number of contacts per individual|
 |β<sub>H</sub>|0.001|Hospital transmission rate|
