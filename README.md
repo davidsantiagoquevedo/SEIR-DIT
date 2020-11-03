@@ -96,6 +96,6 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |α<sup>-1</sup>|1 day|Mean time between onset of symptoms and detection|
 |ρ<sup>-1</sup>|12 days|Mean duration of isolation period|
 |T<sub>PCR</sub>|2 days|Mean time to results of RT-PCR test|
-|ξ<sub>PCR</sub>|0.85|Sensibility of RT-PCR test|
+|ξ<sub>PCR</sub>|0.85|Sensitivity of RT-PCR test|
 |T<sub>AG</sub>|1 days|Mean time to results of AG test|
-|ξ<sub>AG</sub>|0.75|Sensibility of AG test|
+|ξ<sub>AG</sub>|0.75|Sensitivity of AG test|
