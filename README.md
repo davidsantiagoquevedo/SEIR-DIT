@@ -16,10 +16,10 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
   <li>I<sub>C</sub>: Infections requiring hospitalization</li>
   <li>I<sub>C</sub><sup>SI</sup>: Self-isolated infections requiring hospitalization</li>
   <li>I<sub>C</sub><sup>T</sup>: Traced infections requiring hospitalization (coming from exposed traced contacts) </li>
-  <li>I<sub>HR</sub>: Hospitalized infections requiring a general hospital bed that recover</li>
-  <li>I<sub>UR</sub>: Hospitalized infections requiring an ICU bed that recover</li>
-  <li>I<sub>HD</sub>: Hospitalized infections requiring a general hospital bed that die</li>
-  <li>I<sub>UD</sub>: Hospitalized infections requiring an ICU bed that die</li>
+  <li>I<sub>HR</sub>: Hospitalized infections that require a general hospital bed and recover</li>
+  <li>I<sub>UR</sub>: Hospitalized infections that require an ICU bed and recover</li>
+  <li>I<sub>HD</sub>: Hospitalized infections that require a general hospital bed and die</li>
+  <li>I<sub>UD</sub>: Hospitalized infections that requiring an ICU bed and die</li>
   <li>I<sub>R</sub>: Hospitalized infections requiring a general hospital bed after recovering from ICU stay</li>
   <li>R: Recovered</li>
   <li>D: Dead</li>
