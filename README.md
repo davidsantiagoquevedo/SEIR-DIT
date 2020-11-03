@@ -74,11 +74,11 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |γ<sub>R</sub><sup>-1</sup>|3.4 days|Mean duration of stepdown post ICU|
 |σ<sub>HD</sub><sup>-1</sup>|7.6 days|Mean duration of hospitalization for non-critical cases if die|
 |σ<sub>UD</sub><sup>-1</sup>|10.1 days|Mean duration in ICU if die|
-|δ<sub>M</sub>|0.96558|Probability of mild infections |
-|δ<sub>HR</sub>|0.69660|Probability of hospitalized infections requiring a general hospital bed that recover from disease|
-|δ<sub>UR</sub>|0.12257|Probability of hospitalized infections requiring an ICU bed that recover |
-|δ<sub>HD</sub>|0.05827|Probability of hospitalized infections requiring a general hospital bed that die|
-|δ<sub>UD</sub>|0.12256|Probability of hospitalized infections requiring an ICU bed that die|
+|δ<sub>M</sub>|0.96558|Probability of mild infection|
+|δ<sub>HR</sub>|0.69660|Probability of recovery for hospitalized infections requiring a general hospital bed|
+|δ<sub>UR</sub>|0.12257|Probability of recovery for hospitalized infections requiring an ICU bed|
+|δ<sub>HD</sub>|0.05827|Probability of dying for hospitalized infections requiring a general hospital bed|
+|δ<sub>UD</sub>|0.12256|Probability of dying for hospitalized infections requiring an ICU bed |
 
 ### DIT parameters 
 #### A. Contact tracing
