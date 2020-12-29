@@ -69,16 +69,16 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
 |σ<sub>CSI</sub><sup>-1</sup>|4.1 days|Mean duration of isolation for severe infections prior hospitalization|
 |σ<sub>CT</sub><sup>-1</sup>|7.1 days|Mean duration of isolation for traced contacts with severe infection prior hospitalization|
 |γ<sub>M</sub><sup>-1</sup>|2.1 days|Mean duration of mild infection|
-|γ<sub>HR</sub><sup>-1</sup>|9.5 days|Mean duration of hospitalization for non-critical cases if survive|
-|ν<sup>-1</sup>|11.3 days|Mean duration in ICU if survive|
-|γ<sub>R</sub><sup>-1</sup>|3.4 days|Mean duration of stepdown post ICU|
-|σ<sub>HD</sub><sup>-1</sup>|7.6 days|Mean duration of hospitalization for non-critical cases if die|
-|σ<sub>UD</sub><sup>-1</sup>|10.1 days|Mean duration in ICU if die|
-|δ<sub>M</sub>|0.96558|Probability of mild infection|
-|δ<sub>HR</sub>|0.69660|Probability of recovery for hospitalized infections requiring a general hospital bed|
-|δ<sub>UR</sub>|0.12257|Probability of recovery for hospitalized infections requiring an ICU bed|
-|δ<sub>HD</sub>|0.05827|Probability of dying for hospitalized infections requiring a general hospital bed|
-|δ<sub>UD</sub>|0.12256|Probability of dying for hospitalized infections requiring an ICU bed |
+|γ<sub>HR</sub><sup>-1</sup>|9 days|Mean duration of hospitalization for non-critical cases if survive|
+|ν<sup>-1</sup>|14.8 days|Mean duration in ICU if survive|
+|γ<sub>R</sub><sup>-1</sup>|3 days|Mean duration of stepdown post ICU|
+|σ<sub>HD</sub><sup>-1</sup>|9 days|Mean duration of hospitalization for non-critical cases if die|
+|σ<sub>UD</sub><sup>-1</sup>|11.1 days|Mean duration in ICU if die|
+|δ<sub>M</sub>|0.97902 |Probability of mild infection|
+|δ<sub>HR</sub>|0.67959|Probability of recovery for hospitalized infections requiring a general hospital bed|
+|δ<sub>UR</sub>|0.13883|Probability of recovery for hospitalized infections requiring an ICU bed|
+|δ<sub>HD</sub>|0.10682|Probability of dying for hospitalized infections requiring a general hospital bed|
+|δ<sub>UD</sub>|0.07476|Probability of dying for hospitalized infections requiring an ICU bed |
 
 ### DIT parameters 
 #### A. Contact tracing
