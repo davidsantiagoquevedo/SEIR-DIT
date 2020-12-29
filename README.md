@@ -55,7 +55,7 @@ The model is composed of two main ODE systems. A SEIR-like model (see Figure 1) 
 
 ## Parameters
 ### Epidemiological parameters for transitions between infectious states
-The parameters of the main SEIR-like model were adapted from https://mrc-ide.github.io/global-lmic-reports/parameters.html 
+The parameters of the main SEIR-like model were adapted from https://mrc-ide.github.io/global-lmic-reports/parameters.html, assuming that the probability of death for critical cases is 0.35
 |Parameter | Value | Definition |
 |---|---|---|
 |R0|3.0|Reproduction number|
@@ -86,9 +86,9 @@ The parameters of the main SEIR-like model were adapted from https://mrc-ide.git
   |Group|Contacts per group|SAR|Proportion of traced contacts |Traced contacts of suspected index cases (n<sub>T</sub>)|![formula](https://render.githubusercontent.com/render/math?math=\Phi)|![formula](https://render.githubusercontent.com/render/math?math=\tilde\Phi)|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |Index case|0|-|-|0|0|0|
-|Household|3.039|25%|100%|3.039|0.38|0.17|
-|Work / school|5.931|15%|80%|7.784|0.74|0.42|
-|Other|6.751|5%|50%|11.160|0.83|0.69|
+|Household|2.039|25%|100%|3.039|0.26|0.11|
+|Work / school|5.931|15%|80%|7.784|0.61|0.41|
+|Other|7.751|5%|50%|11.160|0.71|0.67|
 
 #### B. Testing and isolation
 |Parameter|Value|Definition|
